@@ -190,3 +190,24 @@ footer p{
     color:  #d9dbe1be;
     font-size: 14px;
 }
+/* Mobile */
+@media screen and (max-width: 576px) {
+        .products{
+            grid-template-columns: repeat(1,1fr);
+        }
+        .titlecamera{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            flex-direction: row-reverse;
+        }
+        .gradient{
+            display: none;
+        }
+        .logos{
+            display: grid;
+            flex-wrap: wrap;
+        }
+        .logo{
+            margin-top: 30px;
+            
+        }
